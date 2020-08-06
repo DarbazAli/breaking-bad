@@ -16,7 +16,7 @@ const App = () => {
         setItems(data);
         setIsLoading(false);
       });
-  });
+  }, [items, isLoading]);
 
   return (
     <div>
